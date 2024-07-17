@@ -116,7 +116,7 @@ El contenido de la página HTML se ha guardado como un plantilla de cadena o un 
 
 Escribir HTML en medio del código no es muy inteligente, pero para los programadores antiguos de PHP, era una práctica normal.
 
-En las aplicaciones web tradicionales, el navegador es "tonto". Solo obtiene datos HTML del servidor, y toda la lógica de la aplicación reside en el servidor. Un servidor puede ser creado utilizando [Java Spring](https://spring.io/projects/spring-framework), [Python Flask](https://flask.palletsprojects.com/en/2.2.x/), o [Ruby on Rails](http://rubyonrails.org/), por mencionar solo algunos ejemplos.
+En las aplicaciones web tradicionales, el navegador es "tonto". Solo obtiene datos HTML del servidor, y toda la lógica de la aplicación reside en el servidor. Un servidor puede ser creado utilizando [JavaScript](https://spring.io/projects/spring-framework), [Python Flask](https://flask.palletsprojects.com/en/2.2.x/), o [Ruby on Rails](http://rubyonrails.org/), por mencionar solo algunos ejemplos.
 
 El ejemplo utiliza la librería [Express](https://expressjs.com/) con Node.js. Este curso utilizará Node.js y Express para crear servidores web.
 
@@ -440,7 +440,7 @@ Nota: En las versiones más recientes de Chrome, el menú desplegable Form Data 
 
 ![Dropdown de datos del formulario](../../images/0/23e.png)
 
-La etiqueta Form tiene atributos <i>action</i> y <i>method</i>, que definen que el envío del formulario se realiza como una solicitud HTTP POST a la dirección <i>new\_note</i>.
+La etiqueta Form tiene atributos <i>action</i> y <i>method</i>, que definen que el envío del formulario se realiza como una solicitud HTTP POST a la dirección <i>exampleapp\new_note</i>.
 
 ![Highlight de action y method](../../images/0/24e.png)
 
